@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Chronicle Display';
+  font-weight: 400;
+  src: url('ChronicleDisplay.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  font-weight: 600;
+  src: url('ChronicleDisplaySemiBold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  font-weight: 700;
+  src: url('ChronicleDisplayBold.otf') format("opentype");
+}

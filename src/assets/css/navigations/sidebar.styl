@@ -1,0 +1,27 @@
+@css {
+  .menu-menu-sidebar .menu-item {
+    @apply flex;
+    @apply flex-col;
+    @apply font-chronicle-display;
+    @apply relative;
+    @apply text-sm;
+  }
+
+  .menu-menu-sidebar .menu-item.current-menu-item {
+    @apply bg-white-citrine-dark;
+  }
+
+  .menu-menu-sidebar .sub-menu {
+    @apply bg-white-citrine-light;
+    @apply flex;
+    @apply flex-col;
+  }
+
+  .menu-menu-sidebar .sub-menu .menu-item {
+    @apply ml-4;
+  }
+
+  .menu-menu-sidebar .sub-menu .menu-item.current-menu-item {
+    @apply bg-white-citrine-dark;
+  }
+}

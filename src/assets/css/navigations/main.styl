@@ -1,0 +1,62 @@
+@css {
+  .menu-menu-main {
+    @apply flex-wrap;
+  }
+
+  .menu-menu-main .menu-item {
+    @apply flex;
+    @apply relative;
+  }
+
+  .menu-menu-main .menu-item:hover {
+    @apply bg-white-citrine-dark;
+  }
+
+  .menu-menu-main .menu-item:hover .sub-menu {
+    @apply flex;
+  }
+
+  .menu-menu-main .menu-item a {
+    @apply py-2;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .menu-menu-main .menu-item.current-menu-item {
+    @apply bg-white-citrine;
+  }
+
+  .menu-menu-main .menu-item.current-menu-item:hover {
+    @apply bg-white-citrine-dark;
+  }
+
+  .menu-menu-main .menu-item.current-menu-item .sub-menu {
+    @apply bg-white-citrine-dark;
+  }
+
+  /*.menu-menu-main .menu-item.utama a {
+    @apply bg-center;
+    @apply bg-cover;
+    @apply bg-no-repeat;
+    @apply h-4;
+    @apply m-2;
+    @apply p-0;
+    @apply w-4;
+  }*/
+
+  .menu-menu-main .sub-menu {
+    @apply hidden;
+    @apply absolute;
+    @apply bg-white-citrine-dark;
+    /* @apply flex; */
+    @apply flex-col;
+    @apply left-0;
+    min-width: 6rem;
+    top: 2rem;
+  }
+
+  .menu-menu-main .sub-menu .menu-item {
+    @apply flex-1;
+    white-space: nowrap;
+  }
+}

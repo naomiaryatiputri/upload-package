@@ -1,0 +1,53 @@
+@css {
+  .button-dropdown-text {
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  }
+
+  .button-dropdown:hover + .button-dropdown-child {
+    @apply flex;  
+  }
+
+  .button-dropdown-child {
+    @apply hidden;
+    top:100%;
+    min-width: 180px;  
+  }
+
+  .button-dropdown-child:hover {
+    @apply flex;
+  }
+
+  .button-dropdown-text:focus + .button-dropdown-child-text {
+    @apply flex;  
+  }
+
+  .button-dropdown-child-text {
+    @apply hidden;
+    top:100%;
+    min-width: 180px;  
+  }
+
+  .button-dropdown-child-link {
+    @apply hidden;
+    top:100%;
+    min-width: 180px;  
+  }
+
+  .button-dropdown-child-text:hover {
+    @apply flex;
+  }
+
+  .button-dropdown-child-list:before {
+    @apply absolute;
+    background: linear-gradient(-45deg, #fefefe 52%, #fefefe 0%);
+    border: inherit;
+    border-width: 0.0625rem 0.0625rem 0 0;
+    content: '';
+    height: 0.9375rem;
+    right: 2.875rem;
+    top: -8px;
+    transform: rotate(-45deg) translateZ(0);
+    width: 0.9375rem;
+  }
+
+}

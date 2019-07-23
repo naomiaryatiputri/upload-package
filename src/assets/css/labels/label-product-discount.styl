@@ -1,0 +1,35 @@
+@css {
+  .label-product-discount {
+    @apply absolute;
+    @apply left-0;
+    @apply top-0;
+  }
+
+  .label-product-discount-text {
+    @apply bg-red-thunderbird-700;
+    @apply font-pt-sans;
+    @apply leading-none;
+    @apply px-2;
+    @apply py-2;
+    @apply text-center;
+    @apply text-white;
+    @apply text-xs;
+  }
+
+  .label-product-discount-triangle {
+    border-top: solid 17px #D71920;
+    height: 0;
+    width: 0;
+  }
+  
+  .label-product-discount-triangle.left {
+    @apply float-left;
+    border-right: solid 17px transparent;
+  }
+
+  .label-product-discount-triangle.right {
+    @apply float-right;
+    border-left: solid 17px transparent;
+  }
+  
+}
