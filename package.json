@@ -1,7 +1,7 @@
 {
-  "name": "mockup-login",
-  "version": "0.1.0",
-  "private": true,
+  "name": "coba-upload",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "storybook": "start-storybook",
@@ -71,5 +71,10 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "untuk testing",
+  "main": "tailwind.js",
+  "repository": "https://github.com/naomiaryatiputri/upload-package.git",
+  "author": "naomiaryatiputri <naomiaryatiputri@gmail.com>",
+  "license": "MIT"
 }
